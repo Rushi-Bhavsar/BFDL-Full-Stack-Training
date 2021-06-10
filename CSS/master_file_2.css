@@ -1,0 +1,22 @@
+body{
+    background: url("https://images.pexels.com/photos/257360/pexels-photo-257360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+}
+
+h1{
+    color: aliceblue;
+}
+
+div{
+    background: turquoise;
+    border-color: antiquewhite;
+    border-width: thick;
+    border-style: double;
+}
+
+span{
+    color: red;
+}
+
+p{
+    color: yellow;
+}

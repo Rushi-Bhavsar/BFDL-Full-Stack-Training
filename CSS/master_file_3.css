@@ -1,0 +1,38 @@
+/*Class Selector*/
+.firstDic{
+    color: blue;
+}
+
+.secondDiv{
+    color: red;
+}
+
+/*ID Selector*/
+#firstID{
+    color: darkcyan;
+    text-decoration: line-through;
+}
+
+/*All elements of the page*/
+/**{*/
+/*    color: brown;*/
+/*}*/
+
+/*Adjacent sibling*/
+
+h3 + ul{
+    color: violet;
+    border: 4px greenyellow solid;
+}
+
+/*Descendants*/
+li a{
+    color: red;
+    border: 2px black solid;
+}
+
+/*Specific Attribute of descendants*/
+li a[href="https://www.google.com"]{
+    color: blue;
+    border: 3px green dotted;
+}

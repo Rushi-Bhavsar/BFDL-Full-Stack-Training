@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up Page.</title>
+</head>
+<body>
+<h1>Course Sign up Page.</h1>
+<p>Please Note First name, Last name, Email and password are required fields.</p>
+<form action="thank_you.html">
+  <label for="fname">First Name: </label>
+  <input type="text" name="Student First Name" id="fname" placeholder="First Name" required>
+  <label for="lname">Last Name: </label>
+  <input type="text" name="Student Last Name" id="lname" placeholder="Last Name" required>
+  <p></p>
+  <label for="personal_email">Email: </label>
+  <input type="email" name="Student Email" id="personal_email" placeholder="your@email.com" required>
+  <label for="set_password">Password: </label>
+  <input type="password" name="Student Password" id="set_password" required>
+  <p></p>
+  <p>Are you Employee or Student.</p>
+  <label for="yesEmployee">Employee</label>
+  <input type="radio" name="Status" id="yesEmployee" value="Employee">
+  <label for="yesStudent">Student</label>
+  <input type="radio" name="Status" id="yesStudent" value="Student">
+  <p></p>
+  <p>Do you have Credit card or PhonePe</p>
+  <select name="Payment-Type">
+    <option value="Credit_Card">Credit Card</option>
+    <option value="PhonePe">PhonePe</option>
+  </select>
+  <p></p>
+  <input type="submit" value="Sign Up.">
+</form>
+</body>
+</html>

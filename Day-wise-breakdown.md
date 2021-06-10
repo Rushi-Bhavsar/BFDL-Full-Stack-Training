@@ -1,0 +1,55 @@
+## Day - 1.
+
+### HTML
+- How website works.
+- What is frontend and backend and what is full stack.
+- Introduction to HTML.
+- Tags
+    - Heading tag.
+    - Head tag.
+    - Body tag.
+    - Paragraph tag.
+    - Title tag.
+    - Bold/Strong and Italic/Emphasis tag.
+- List.
+    - Ordered list.
+    - Unordered list.
+    - Nested list.
+- Div and Span.
+- HTML Attributes.
+    - Image tag.
+    - Anchor tag.
+- Creating Image as link.
+- Tables.
+- Forms.
+    - Basic form.
+    - Method.
+    - Action.
+- Input types
+    - Email.
+    - Color.
+    - Text.
+    - Password.
+    - Radio.
+        - Linked Radio buttons.
+    - TextArea.
+    - Submit.
+    - Dropdown
+- Placeholders.
+- Labels.
+- Required and Non-required input types.
+
+### CSS
+- Link CSS file to html file.
+- Basic color change of html tags using CSS file.
+- Background color, Background image, Background repeat.
+- Border color, width and border type.
+- CSS Selectors.
+  - class.
+  - ids.
+  - select all.
+  - Adjacent siblings.
+  - descendants.
+  - specific attribute.
+- Text-decoration.
+- Google Chrome inspection.
