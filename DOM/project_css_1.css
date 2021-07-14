@@ -1,0 +1,16 @@
+tr td{
+    border: 3px black solid;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 60px;
+}
+table{
+    margin: 10px auto auto;
+}
+.jumbotron{
+    background: powderblue;
+    padding: 3%;
+    margin-right: 8%;
+    margin-left: 8%;
+}

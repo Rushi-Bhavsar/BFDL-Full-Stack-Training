@@ -1,0 +1,11 @@
+.navbar{
+    border-radius: 3px;
+}
+.jumbotron{
+    background: lightgray;
+    padding: 10px 20px 30px 40px;
+}
+
+body{
+    font-family: Georgia, serif ;
+}

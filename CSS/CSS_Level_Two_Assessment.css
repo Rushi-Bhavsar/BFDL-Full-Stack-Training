@@ -1,0 +1,34 @@
+td{
+    height: 250px;
+    width: 150px;
+    border: 5px white solid;
+}
+
+table{
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Wallpoet', cursive;
+}
+
+#first{
+    background: #fffca5;
+}
+
+#second{
+    background: powderblue;
+}
+
+#third{
+    background: blanchedalmond;
+}
+
+#fourth{
+    background: aqua;
+}
+
+#fifth{
+    background: cadetblue;
+}

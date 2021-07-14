@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Access Records</title>
+    <link rel="stylesheet" href="{% static 'CSS/master.css' %}">
+</head>
+<body>
+    <h1>Access Records of the website are below</h1>
+    <div>
+        {% if data %}
+        <table>
+        <thead>
+            <th>Site Name</th>
+            <th>Date</th>
+        </thead>
+        {% for record in data %}
+            <tr>
+                <td>{{ record.name }}</td>
+                <td>{{ record.date }}</td>
+            </tr>
+        {% endfor %}
+        </table>
+        {% endif %}
+    </div>
+</body>
+</html>
